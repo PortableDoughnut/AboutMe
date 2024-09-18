@@ -101,8 +101,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="xjz-k4-wgH">
-                                <rect key="frame" x="12" y="82.999999999999972" width="308.66666666666669" height="121"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="xjz-k4-wgH">
+                                <rect key="frame" x="12" y="83" width="308.66666666666669" height="121"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What I Like to Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxq-5G-UaP">
                                         <rect key="frame" x="0.0" y="0.0" width="308.66666666666669" height="48"/>
@@ -125,6 +125,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q60-HL-ru8"/>
                         <color key="backgroundColor" red="0.92156863209999995" green="0.6784313917" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="xjz-k4-wgH" firstAttribute="top" secondItem="Q60-HL-ru8" secondAttribute="top" constant="24" id="796-qW-mw2"/>
+                            <constraint firstItem="xjz-k4-wgH" firstAttribute="leading" secondItem="Q60-HL-ru8" secondAttribute="leading" constant="12" id="K9o-Xp-yYh"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Hobbies" image="desktopcomputer" catalog="system" id="qWP-SK-1P7"/>
                 </viewController>
