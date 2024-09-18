@@ -15,8 +15,35 @@
                     <view key="view" contentMode="scaleToFill" id="4rI-kE-ef5">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="PrD-VY-KiR">
+                                <rect key="frame" x="12" y="83" width="213" height="121"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm Gwen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n01-PW-zob">
+                                        <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="48"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I love coding, music, and a lot of nerdy tech stuff" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMh-7w-8D0">
+                                        <rect key="frame" x="0.0" y="60" width="213" height="61"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="61" id="EaJ-6S-OXF"/>
+                                            <constraint firstAttribute="width" constant="213" id="oCd-6E-N6G"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="FBx-mg-6Ah"/>
                         <color key="backgroundColor" red="0.46666666870000001" green="0.79607844350000001" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="PrD-VY-KiR" firstAttribute="top" secondItem="FBx-mg-6Ah" secondAttribute="top" constant="24" id="iug-cF-RlZ"/>
+                            <constraint firstItem="PrD-VY-KiR" firstAttribute="leading" secondItem="FBx-mg-6Ah" secondAttribute="leading" constant="12" id="lKM-wn-Oyh"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Bio" image="person" catalog="system" id="PDN-BP-lKj"/>
                 </viewController>
@@ -73,6 +100,29 @@
                     <view key="view" contentMode="scaleToFill" id="Yys-zG-zEl">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="xjz-k4-wgH">
+                                <rect key="frame" x="12" y="82.999999999999972" width="308.66666666666669" height="121"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What I Like to Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxq-5G-UaP">
+                                        <rect key="frame" x="0.0" y="0.0" width="308.66666666666669" height="48"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I love watching movies, playing games, and watching obscure tv shows" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxl-4h-N3o">
+                                        <rect key="frame" x="0.0" y="60" width="213" height="61"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="213" id="blO-fG-ERB"/>
+                                            <constraint firstAttribute="height" constant="61" id="jdC-je-9iZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Q60-HL-ru8"/>
                         <color key="backgroundColor" red="0.92156863209999995" green="0.6784313917" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
@@ -80,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pz9-Y8-aRA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1153.4351145038167" y="419.71830985915494"/>
+            <point key="canvasLocation" x="1176" y="437"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="51N-7P-d93">
