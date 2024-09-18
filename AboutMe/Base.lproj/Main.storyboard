@@ -32,7 +32,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="C6P-RI-9fa">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="C6P-RI-9fa">
                                 <rect key="frame" x="12" y="83" width="213" height="133"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Family" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Atc-NO-4aa">
@@ -55,6 +55,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fCq-7V-m4b"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="C6P-RI-9fa" firstAttribute="top" secondItem="fCq-7V-m4b" secondAttribute="top" constant="24" id="KGP-MD-baj"/>
+                            <constraint firstItem="C6P-RI-9fa" firstAttribute="leading" secondItem="fCq-7V-m4b" secondAttribute="leading" constant="12" id="h3Q-dF-Xfj"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Family" image="figure.2.and.child.holdinghands" catalog="system" id="vtX-99-LPg"/>
                 </viewController>
